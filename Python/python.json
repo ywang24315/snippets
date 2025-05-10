@@ -1,0 +1,623 @@
+{
+	// Place your snippets for python here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	
+	"Python Main Template": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Basic": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Math": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Basic IO": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"if else elif": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"List": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Loop": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Tuple": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Dict": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Set": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"function": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"OOD": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"if-else-elif": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"File read/write": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"try-catch-finally": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Reg Exp": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"Image": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+	"GUI tkinter": {
+ 	 "prefix": "mainpy",
+	  "body": [
+ 	   "def main():",
+ 	   "    print(\"Hello, World\")",
+  	   "",
+  	   "if __name__ == \"__main__\":",
+  	   "    main()"
+ 	 ],
+  	"description": "Main function template for Python"	
+},
+/*
+Ch1 Basic
+Ch2 Math
+Ch3 Basic Data Type
+Ch4 Basic IO
+Ch5 if else elif
+Ch6 List
+Ch7 Loop
+Ch8 Tuple
+Ch9 Dict
+Ch10 Set
+Ch11 function
+Ch12 OOD
+Ch13 Design/Apply module
+Ch14 File read/write
+Ch15 try catch finally
+Ch16 Reg Exp
+Ch17 Image 
+Ch18 GUI tkinter
+Ch19 Animation/Game
+Ch20 numpy
+Ch21 JSON
+Ch22 CSV/Pickle/Shelve/Excel
+Ch23 web 
+Ch24 Selenium
+Ch25 Python cell phone
+Ch26 Email
+Ch27 Python PDF
+
+*/
+
+/*
+第一章 基本觀念
+1-1 認識Python
+1-2 Python 的起源
+1-3 Python 語言發展史
+1-4 Python 的應用範圍  
+1-5 靜態語言與動態語言
+1-6 系統的安裝與執行  
+1-7 程式註解
+1-8 Python 彩蛋
+
+第二章 認識變數與基本數學運算
+2-1 用Python 做計算
+2-2 認識變數
+2-3 認識程式的意義
+2-4 認識註解的意義
+2-5 變數的命名原則
+2-6 基本數學運算
+2-7 指派運算子
+2-8 Python 等號的多重指定使用
+2-9 刪除變數
+2-10 Python 的斷行
+2-11 專題-複利計算/計算圓面積與圓周長
+
+第三章 Python 的基本資料型態
+3-1 type( ) 函數
+3-2 數值資料型態
+3-3 布林值資料型態
+3-4 字串資料型態
+3-5 字串與字元
+3-6 bytes 資料
+3-7 專題- 地球到月球時間計算/計算座標軸 2 點之間距離
+
+第四章 基本輸入與輸出
+4-1 Python 的輔助說明help( )
+4-2 格式化輸出資料使用print( )
+4-3 輸出資料到檔案
+4-4 資料輸入input( )
+4-5 處理字串的數學運算eval( )
+4-6 列出所有內建函數dir( )
+4-7 專題- 溫度轉換/房貸問題/面積/經緯度距離/高斯數學
+
+第五章 程式的流程控制使用if 敘述
+5-1 關係運算子
+5-2 邏輯運算子
+5-3 if 敘述
+5-4 if ⋯ else 敘述
+5-5 if ⋯ elif ⋯ else 敘述
+5-6 尚未設定的變數值None
+5-7 if 的新功能
+5-8 專題- BMI/ 猜數字/生肖/方程式/聯立方程式/火箭升空/閏年
+
+第六章 串列(List)
+6-1 認識串列(list)
+6-2 Python 簡單的物件導向觀念
+6-3 獲得串列的方法
+6-4 增加與刪除串列元素
+6-5 串列的排序
+6-6 進階串列操作
+6-7 串列內含串列
+6-8 串列的賦值與切片拷貝
+6-9 再談字串
+6-10 in 和not in 運算式
+6-11 is 或is not 運算式
+6-12 enumerate 物件
+6-13 專題 大型串列/帳號管理/認識凱薩密碼
+
+第七章 迴圈設計
+7-1 基本for 迴圈
+7-2 range( ) 函數
+7-3 進階的for 迴圈應用
+7-4 while 迴圈
+7-5 enumerate 物件使用for 迴圈解析
+7-6 專題 購物車設計/成績系統/圓周率/雞兔同籠/國王的麥粒
+
+第八章 元組(Tuple)
+8-1 元組的定義
+8-2 讀取元組元素
+8-3 遍歷所有元組元素
+8-4 修改元組內容產生錯誤的實例
+8-5 可以使用全新定義方式修改元組元素
+8-6 元組切片(tuple slices)
+8-7 方法與函數
+8-8 串列與元組資料互換
+8-9 其它常用的元組方法
+8-10 enumerate 物件使用在元組
+8-11 使用zip( ) 打包多個物件
+8-12 生成式(generator)
+8-13 製作大型的元組資料
+8-14 元組的功能
+8-15 專題 認識元組/統計/打包與解包/bytes與bytearray
+
+第九章 字典(Dict)
+9-1 字典基本操作
+9-2 遍歷字典
+9-3 建立字典串列
+9-4 字典內鍵的值是串列
+9-5 字典內鍵的值是字典
+9-6 while 迴圈在字典的應用
+9-7 字典常用的函數和方法
+9-8 製作大型的字典資料
+9-9 專題 文件分析/字典生成式/星座/凱薩密碼/摩斯密碼
+
+第十章 集合(Set)
+10-1 建立集合
+10-2 集合的操作
+10-3 適用集合的方法
+10-4 適用集合的基本函數操作
+10-5 凍結集合frozenset
+10-6 專題 夏令營程式/程式效率/集合生成式/雞尾酒實例
+
+第十一章 函數設計
+11-1 Python 函數基本觀念
+11-2 函數的參數設計
+11-3 函數傳回值
+11-4 呼叫函數時參數是串列
+11-5 傳遞任意數量的參數
+11-6 進一步認識函數
+11-7 遞迴式函數設計recursive
+11-8 區域變數與全域變數
+11-9 匿名函數lambda
+11-10 pass 與函數
+11-11 type 關鍵字應用在函數
+11-12 設計自己的range( )
+11-13 裝飾器(Decorator)
+11-14 專題 函數的應用/質數
+11-15 專題 歐幾里德演算法
+
+第十二章 類別– 物件導向的程式設計
+12-1 類別的定義與使用
+12-2 類別的訪問權限 – 封裝(encapsulation)
+12-3 類別的繼承
+12-4 多型(polymorphism)
+12-5 多重繼承
+12-6 type 與instance
+12-7 特殊屬性
+12-8 類別的特殊方法
+12-9 專題 幾何資料的應用
+
+第十三章 設計與應用模組
+13-1 將自建的函數儲存在模組中
+13-2 應用自己建立的函數模組
+13-3 將自建的類別儲存在模組內
+13-4 應用自己建立的類別模組
+13-5 隨機數random 模組
+13-6 時間time 模組
+13-7 系統sys 模組
+13-8 keyword 模組
+13-9 日期calendar 模組
+13-10 幾個增強Python 功力的模組
+13-11 專題設計 賭場遊戲騙局/蒙地卡羅模擬/文件加密
+
+第十四章 檔案的讀取與寫入
+14-1 資料夾與檔案路徑
+14-2 讀取檔案
+14-3 寫入檔案
+14-4 讀取和寫入二進位檔案
+14-5 shutil 模組
+14-6 檔案壓縮與解壓縮zipfile
+14-7 認識編碼格式encode
+14-8 剪貼簿的應用
+14-9 專題設計 分析檔案/ 加密檔案
+
+第十五章 程式除錯與異常處理
+15-1 程式異常
+15-2 設計多組異常處理程序
+15-3 丟出異常
+15-4 紀錄Traceback 字串
+15-5 finally
+15-6 程式斷言assert
+15-7 程式日誌模組logging
+15-8 程式除錯的典故
+
+第十六章 正則表達式Regular Expression
+16-1 使用Python 硬功夫搜尋文字
+16-2 正則表達式的基礎
+16-3 更多搜尋比對模式
+16-4 貪婪與非貪婪搜尋
+16-5 正則表達式的特殊字元
+16-6 MatchObject 物件
+16-7 搶救CIA 情報員-sub( ) 方法
+16-8 處理比較複雜的正則表示法
+
+第十七章 用Python 處理影像檔案
+17-1 認識Pillow 模組的RGBA
+17-2 Pillow 模組的盒子元組(Box tuple)
+17-3 影像的基本操作
+17-4 影像的編輯
+17-5 裁切、複製與影像合成
+17-6 影像濾鏡
+17-7 在影像內繪製圖案
+17-8 在影像內填寫文字
+17-9 專題 – 建立QR code/ 辨識車牌與建立停車場管理系統
+17-10 專題 - 詞雲(WordCloud) 設計
+
+第十八章 開發GUI 程式使用tkinter
+18-1 建立視窗
+18-2 標籤Label
+18-3 視窗元件配置管理員Layout Management
+18-4 功能鈕Button
+18-5 變數類別
+18-6 文字方塊Entry
+18-7 文字區域Tex
+18-8 捲軸Scrollbar
+18-9 選項鈕Radiobutton
+18-10 核取方塊Checkbutton
+18-11 對話方塊messagebox
+18-12 圖形PhotoImage
+18-13 尺度Scale 的控制
+18-14 功能表Menu 設計
+18-15 專題- 設計小算盤
+
+第十九章 動畫與遊戲
+19-1 繪圖功能
+19-2 尺度控制畫布背景顏色
+19-3 動畫設計
+19-4 反彈球遊戲設計
+19-5 專題 使用tkinter 處理謝爾賓斯基三角形
+
+第二十章 數據圖表的設計
+20-1 認識mapplotlib.pyplot 模組的主要函數
+20-2 繪製簡單的折線圖plot( )
+20-3 繪製散點圖scatter( )
+20-4 Numpy 模組
+20-5 隨機數的應用
+20-6 繪製多個圖表
+20-7 長條圖的製作
+20-8 圓餅圖的製作pie( )
+20-9 圖表顯示中文
+20-10 專題- 台灣股市資料讀取與圖表製作
+
+第二十一章 JSON 資料與繪製世界地圖
+21-1 JSON 資料格式前言
+21-2 認識json 資料格式
+21-3 將Python 應用在json 字串形式資料
+21-4 將Python 應用在json 檔案
+21-5 簡單的json 檔案應用
+21-6 世界人口數據的json 檔案
+21-7 繪製世界地圖
+
+第二十二章 Python 處理CSV/Pickle/Shelve/Excel
+22-1 建立一個CSV 文件
+22-2 記事本開啟CSV 檔案
+22-3 csv 模組
+22-4 讀取CSV 檔案
+22-5 寫入CSV 檔案
+22-6 專題- 使用CSV 檔案繪製氣象圖表
+22-7 台灣股市數據
+22-8 Pickle 模組
+22-9 Shelve 模組
+22-10 Python 與Microsoft Excel
+
+第二十三章 網路爬蟲
+23-1 上網不再需要瀏覽器了
+23-2 下載網頁資訊使用requests 模組
+23-3 檢視網頁原始檔
+23-4 解析網頁使用BeautifulSoup 模組
+23-5 網路爬蟲實戰
+23-6 爬蟲實戰 - 環保署空氣品質JSON檔案實作
+23-7 命令提示字元視窗
+23-8 建議網路爬蟲書籍
+
+第二十四章 Selenium 網路爬蟲的王者
+24-1 順利使用Selenium 工具前的安裝工作
+24-2 獲得webdriver 的物件型態
+24-3 擷取網頁
+24-4 尋找HTML 文件的元素
+24-5 用Python 控制點選超連結
+24-6 用Python 填寫表單和送出
+24-7 用Python 處理使用網頁的特殊按鍵
+24-8 用Python 處理瀏覽器運作
+
+第二十五章 用Python 傳送手機簡訊
+25-1 安裝twilio 模組
+25-2 到Twilio 公司註冊帳號
+25-3 使用Python 程式設計發送簡訊
+
+第二十六章 用Python 傳送電子郵件
+26-1 傳送電子郵件
+26-2 正式使用Python 設計一些簡單的郵件程式
+
+第二十七章 使用Python 處理PDF 檔案
+27-1 開啟PDF 檔案
+27-2 獲得PDF 文件的頁數
+27-3 讀取PDF 頁面內容
+27-4 檢查PDF 是否被加密
+27-5 解密PDF 檔案
+27-6 建立新的PDF 檔案
+27-7 PDF 頁面的旋轉
+27-8 加密PDF 檔案
+27-9 處理PDF 頁面重疊
+27-10 破解密碼的暴力程式設計
+27-11 暴力破解也不是萬能
+
+第二十八章 用Python 控制滑鼠、螢幕與鍵盤
+28-1 滑鼠的控制
+28-2 螢幕的處理
+28-3 使用Python 控制鍵盤
+28-4 網路表單的填寫
+
+第二十九章 SQLite 與MySQL 資料庫
+29-1 SQLite 基本觀念
+29-2 資料庫連線
+29-3 SQLite 資料類型
+29-4 建立SQLite 資料庫表單
+29-5 增加SQLite 資料庫表單紀錄
+29-6 查詢SQLite 資料庫表單
+29-7 更新SQLite 資料庫表單紀錄
+29-8 刪除SQLite 資料庫表單紀錄
+29-9 DB Browser for SQLite
+29-10 將台北人口數儲存SQLite 資料庫
+29-11 MySQL 資料庫
+
+第三十章 多工與多執行緒
+30-1 時間模組datetime
+30-2 多執行緒
+30-3 啟動其它應用程式subprocess 模組
+
+第三十一章 海龜繪圖
+31-1 基本觀念與安裝模組
+31-2 繪圖初體驗
+31-3 繪圖基本練習
+31-4 控制畫筆色彩與線條粗細
+31-5 繪製圓、弧形或多邊形
+31-6 填滿顏色
+31-7 繪圖視窗的相關知識
+31-8 認識與操作海龜影像
+31-9 顏色動畫的設計
+31-10 文字的輸出
+31-11 滑鼠與鍵盤訊號
+31-12 專題–有趣圖案與終止追蹤圖案繪製過程
+31-13 專題–謝爾賓斯基三角形
+
+第三十二章 Python 與Facebook
+32-1 Facebook 圖形API
+32-2 facebook-sdk 存取資料的應用
+
+第三十三章 聲音的控制
+33-1 安裝與導入
+33-2 一般音效的播放Sound( )
+33-3 播放音樂檔案music( )
+33-4 背景音樂
+33-5 mp3 音樂播放器
+
+第三十四章 人臉辨識系統設計
+34-1 安裝OpenCV
+34-2 讀取和顯示影像
+34-3 OpenCV 的繪圖功能
+34-4 人臉辨識
+34-5 設計桃園國際機場的出入境人臉辨識系統
+
+第三十五章 Python 與YouTube
+35-1 安裝pytube 模組
+35-2 正式使用pytube 模組
+35-3 常用的pytube 物件屬性
+35-4 將下載檔案存於指定資料夾
+35-5 YouTube 影音檔案格式
+35-6 篩選影音檔案格式
+35-7 再看下載影音檔案
+35-8 下載多個檔案
+35-9 專題 使用圖形介面處理YouTube影音檔案下載
+
+第三十六章 設計Line Bot 機器人
+36-1 基本觀念
+36-2 Flask
+36-3 建立Line Bot
+36-4 Echo 程式設計
+36-5 建立圖文並茂的Line Bot
+
+第三十七章 網路程式設計
+37-1 TCP/IP
+37-2 URL
+37-3 Socket
+37-4 TCP/IP 程式設計
+37-5 UDP 程式設計
+
+*/
+
+}
