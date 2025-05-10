@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>GPIB 4CH PowerOn</Title>
+      <Shortcut>GPIB 4CH PowerOn</Shortcut>
+      <Description>建立一個基本的 GPIB 4CH PowerOn</Description>
+      <Author>James Wang</Author>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[
+            ADDRESS = 0x07;
+            string msg = "";
+            bool _result = false;        
+            if (fmeter._dpSetFourCh(ADDRESS, FourChSetCommand.Voltage, "2", tBCHGVolt.Text, ref msg) == false)
+            {
+            }
+            if (fmeter._dpSetFourCh(ADDRESS, FourChSetCommand.Current, "2", tBCHGCurr.Text, ref msg) == false)
+            {
+            }
+            if (fmeter._dpSetFourCh(ADDRESS, FourChSetCommand.PowerOn, "2", ref msg) == false)
+            {
+            }
+            return _result;
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

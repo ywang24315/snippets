@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>GPIB DSG ON</Title>
+      <Shortcut>GPIB DSG ON</Shortcut>
+      <Description>建立一個基本的 GPIB DSG ON</Description>
+      <Author>James Wang</Author>
+    </Header>
+    <Snippet>
+      <Code Language="csharp">
+        <![CDATA[
+            ADDRESS = 0x03;    //關EL
+            string msg = "";
+            string sReceiveMsg = "";
+            bool _result = false;
+            if (fmeter._dpSetEL(ADDRESS, ELSetCommand.Current, ELCurr_tb.Text, ref sReceiveMsg) == false)
+            {
+            }
+            if (fmeter._dpSetEL(ADDRESS, ELSetCommand.LoadOn, ref sReceiveMsg) == false)
+            {
+            }
+            return _result;
+        ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
