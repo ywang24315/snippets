@@ -1,0 +1,63 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>ble</Title>
+    <Shortcut>ble</Shortcut>
+    <Description>My custom C++ function template</Description>
+    <Author>James Wang</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>MyFunction</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CPP">
+      <![CDATA[
+        #include <zephyr.h>
+        static uint8_t battery_level = 100;     //模擬數據
+        static ssize_t read_battery_level(struct bt_conn *conn, const struct bt_gatt_attr *attr,
+                                        void *buf, uint16_t len, uint16_t offset)
+        {
+            return bt_gatt_attr_read(conn, attr, buf, len, offset, &battery_level, sizeof(battery_level));
+        } //Read Headlers
+        // GATT Service 定義
+        BT_GATT_SERVICE_DEFINE(battery_svc,
+            BT_GATT_PRIMARY_SERVICE(BT_UUID_BAS),
+
+            BT_GATT_CHARACTERISTIC(BT_UUID_BAS_BATTERY_LEVEL,
+                                BT_GATT_CHRC_READ | BT_GATT_CHRC_NOTIFY,
+                                BT_GATT_PERM_READ,
+                                read_battery_level, NULL, NULL),
+
+            BT_GATT_CCC(NULL, BT_GATT_PERM_READ | BT_GATT_PERM_WRITE),
+
+            BT_GATT_DESCRIPTOR(BT_UUID_GATT_CPF, BT_GATT_PERM_READ,
+                            bt_gatt_attr_read_cpf, NULL, &(struct bt_gatt_cpf){
+                                .format = 0x04, // percent (unitless)
+                                .exponent = 0,
+                                .unit = 0x27AD, // percentage
+                                .name_space = 1,
+                                .description = 0x0100
+                            }),
+
+            BT_GATT_CHARACTERISTIC(BT_UUID_DECLARE_128(0x1A, 0x2A, 0x00, 0x00, 0x00, 0x00, 0x10, 0x00,
+                                                        0x80, 0x00, 0x00, 0x80, 0x5F, 0x9B, 0x34, 0xFB),
+                                BT_GATT_CHRC_READ,
+                                BT_GATT_PERM_READ,
+                                read_battery_state, NULL, NULL),);
+        void main(void)
+        {
+                printk("Bluetooth initialized\n");
+                k_timer_init(&battery_timer, battery_level_update, NULL);
+                k_timer_start(&battery_timer, BATTERY_UPDATE_INTERVAL, BATTERY_UPDATE_INTERVAL);                
+        }
+
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

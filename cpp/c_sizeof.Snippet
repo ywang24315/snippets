@@ -1,0 +1,28 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>sizeof</Title>
+    <Shortcut>sizeof</Shortcut>
+    <Description>My custom C++ function template</Description>
+    <Author>James Wang</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>MyFunction</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CPP">
+      <![CDATA[
+        size_t isize = sizeof(int);
+        size_t nsize = sizeof n;
+        printf("sizeof(int):%zd\n", isize);
+        printf("sizeof n:%zd\n", nsize);
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

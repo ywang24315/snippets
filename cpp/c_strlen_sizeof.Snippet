@@ -1,0 +1,34 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>strlen_sizeof</Title>
+    <Shortcut>strlen_sizeof</Shortcut>
+    <Description>My custom C++ function template</Description>
+    <Author>James Wang</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>MyFunction</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CPP">
+        #include <stdio.h>
+        int main(void)
+        {
+            char m[]="hello";
+            printf("%zd %zd\n",sizeof m,strlen(m));
+            char m2[20]="hello";
+            printf("%zd %zd\n",sizeof m2,strlen(m2));
+            char m3[20]={'h','e','l','l','o','\0'};
+            printf("%zd %zd\n",sizeof m3,strlen(m3));
+            return 0;
+        }
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

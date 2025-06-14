@@ -1,0 +1,69 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>c summary</Title>
+    <Shortcut>c summary</Shortcut>
+    <Description>My custom C++ function template</Description>
+    <Author>James Wang</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>MyFunction</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CPP">
+      <![CDATA[
+#include "FreeRTOS.h"
+#include "task.h"
+#include "queue.h"
+#include "croutine.h"
+#include "bsp.h"
+
+
+static void AppTaskCreate (void);
+
+int main(void)
+{
+    bsp_Init();
+	
+	  AppTaskCreate();
+	
+    vTaskStartScheduler();
+	
+    while (1)
+    {
+    } 
+}
+
+void vTask1( void *pvParameters )
+{
+    /* As per most tasks, this task is implemented in an infinite loop. */
+    while(1)
+    {
+			 bsp_LedToggle(1);
+		   printf("Task1 is running \r\n");
+		   vTaskDelay(1000);
+	}
+}
+
+static void AppTaskCreate (void)
+{
+		/* Create one task. */
+    xTaskCreate(    vTask1,     /* Pointer to the function that implements the task.              */
+                    "Task 1",   /* Text name for the task.  This is to facilitate debugging only. */
+                    500,        /* Stack depth in words.                                          */
+                    NULL,       /* We are not using the task parameter.                           */
+                    1,          /* This task will run at priority 1.                              */
+                    NULL );     /* We are not using the task handle.                              */
+}
+
+
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
