@@ -1,0 +1,50 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>c arr2d</Title>
+    <Shortcut>c arr2d</Shortcut>
+    <Description>My custom C++ function template</Description>
+    <Author>James Wang</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>MyFunction</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CPP">
+      <![CDATA[
+#include <stdio.h>
+#include <signal.h>
+#include <unistd.h>
+volatile sig_atomic_t doneflag=0;
+void catchctrlc(int signo) {
+   doneflag=1;
+}
+int main(void){
+   struct sigaction act;
+   act.sa_handler = catchctrlc;
+   act.sa_flags = 0;
+   if( (sigemptyset(&act.sa_mask) == -1)
+      || (sigaction(SIGINT, &act, NULL) == -1))
+       perror("Failed to set SIGINT to handle Ctrl-C");
+   while(!doneflag) {
+       char ch='a';
+       while(ch++!='z') {
+           fputc(ch, stderr);
+           int i;
+           for(i=0; i<20000000; i++) ;
+       }
+       fputc('\n', stderr);
+   }
+   printf("Program terminating ...\n");
+    return 0;
+}
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
