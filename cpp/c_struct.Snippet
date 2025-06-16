@@ -1,0 +1,48 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>c arr2d</Title>
+    <Shortcut>c arr2d</Shortcut>
+    <Description>My custom C++ function template</Description>
+    <Author>James Wang</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>MyFunction</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CPP">
+      <![CDATA[
+#include <stdio.h>
+#define MAXTITLE 40
+#define MAXAUHR 40
+struct book {
+    char title[MAXTITLE];
+    char author[MAXAUHR];
+    float price;
+};
+int main(void)
+{
+    struct book library;
+    printf("enter title : \n");
+    fgets(library.title, MAXTITLE, stdin);
+    printf("enter author : \n");
+    fgets(library.author, MAXAUHR, stdin);
+    printf("enter price : \n");
+    scanf("%f", &library.price);
+    printf("Title:%sAuthor:%sPrice:%.2f\n",
+         library.title, library.author, library.price);
+    return 0;
+}
+
+
+
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

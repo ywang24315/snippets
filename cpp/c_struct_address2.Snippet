@@ -1,0 +1,55 @@
+<CodeSnippet Format="1.0.0">
+  <Header>
+    <Title>c arr2d</Title>
+    <Shortcut>c arr2d</Shortcut>
+    <Description>My custom C++ function template</Description>
+    <Author>James Wang</Author>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+      </Literal>
+      <Literal>
+        <ID>name</ID>
+        <Default>MyFunction</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="CPP">
+      <![CDATA[
+#include <stdio.h>
+#define LEN 20
+struct name
+{
+	char first[LEN];
+	char last[LEN];
+};
+struct person
+{
+	struct name handle;
+	float income;
+};
+void printPerson(struct person *pf);
+int main(void)
+{
+	struct person fellow=
+	{
+		{"stanlehy","jordan"},12.95
+	};
+	printPerson(&fellow);
+	return 0;
+}
+void printPerson(struct person *pf)
+{
+	printf("name:%s,%s income:%.2f\n",
+		pf->handle.last,
+		pf->handle.first,
+		pf->income
+	);
+}
+
+      ]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
